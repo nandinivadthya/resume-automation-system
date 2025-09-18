@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Automation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      display: flex;
+      gap: 40px;
+    }
+    .form-container {
+      width: 40%;
+    }
+    .resume-container {
+      width: 55%;
+      border: 2px solid #444;
+      padding: 20px;
+      border-radius: 10px;
+      background: #f9f9f9;
+    }
+    h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .resume-container h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+    .resume-container p {
+      margin: 4px 0;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      width: 100%;
+      background: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <!-- Left side: Input Form -->
+  <div class="form-container">
+    <h2>Enter Your Details</h2>
+    <label>Name:</label>
+    <input type="text" id="name" placeholder="Your full name">
+
+    <label>Email:</label>
+    <input type="email" id="email" placeholder="Your email">
+
+    <label>Phone:</label>
+    <input type="text" id="phone" placeholder="Your phone number">
+
+    <label>Skills:</label>
+    <textarea id="skills" placeholder="E.g. Java, Python, HTML"></textarea>
+
+    <label>Education:</label>
+    <textarea id="education" placeholder="Your education details"></textarea>
+
+    <label>Experience:</label>
+    <textarea id="experience"
